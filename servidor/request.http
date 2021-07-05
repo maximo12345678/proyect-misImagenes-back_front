@@ -1,0 +1,10 @@
+//se sabe por la extension, que lo que se quiere es realizar o enviar peticiones http a nuestro servidor
+
+
+### //siempre va uno de estos antes de una peticion
+GET http://localhost:9000/api/imagenes HTTP/1.1
+
+
+
+###
+DELETE  http://localhost:9000/api/imagenes/4 HTTP/1.1
